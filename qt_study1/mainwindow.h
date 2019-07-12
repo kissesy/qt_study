@@ -15,6 +15,7 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void change_money(int n);
+    void grid();
     int money;
 
 private slots:
@@ -27,6 +28,8 @@ private slots:
     void on_pbc3_clicked();
 
     void on_pbc5_clicked();
+
+    void on_pbc6_clicked();
 
 private:
     Ui::MainWindow *ui;
