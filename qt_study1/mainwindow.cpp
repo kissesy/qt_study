@@ -32,6 +32,8 @@ void MainWindow::grid()
             index++;
         }
     }
+    ui->pbc4->setEnabled(false);
+    ui->pbc5->setEnabled(false);
     ui->lcdNumber->display((QString::number(money)));
     QMessageBox msg;
     msg.information(nullptr, "hello world","ok get out");
